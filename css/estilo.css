@@ -1,0 +1,70 @@
+body {
+    background-color: #db73b0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffd6f8;
+    text-align: center;
+}
+
+h2:hover {
+    color: #f10e93;
+    transition-duration: 0.5s;
+}
+
+.centralizar {
+    background-color: rgb(231, 186, 221);
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+
+
+
+/* normal link  */
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #db73b0;
+    margin-top: 20px;
+}
+
+/* univisted link */
+a:link {
+    color:  #db73b0;
+}
+
+/* visited link */
+a:visited {
+   color: #eb4ba8
+}
+
+/* hover */
+a:hover {
+    color: #928787;
+    transition-duration: 0.2s;
+}
+
+/* selected link */
+a:active {
+    color: #e787d7;
+}
